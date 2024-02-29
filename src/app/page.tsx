@@ -4,9 +4,9 @@ import Buttom from "../components/buttom";
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center justify-between p-24 text-black bg-white">
-        <div className="relative flex flex-col shadow-lg rounded-lg w-full border-x">
-          <table className="rounded-2xl">
+      <div className=" min-h-screen flex-col items-center justify-between pt-32 px-6 text-black bg-white">
+        <div className=" overflow-auto relative flex flex-col shadow-lg rounded-lg w-full border-x">
+          <table className="w-auto">
             <thead className=" bg-gray-50 h-14">
               <tr>
                 <th className="text-xs text-gray-500 text-left p-4 font-semibold w-[287px]">
@@ -42,7 +42,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
@@ -67,7 +67,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
@@ -92,7 +92,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
@@ -117,7 +117,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
@@ -142,7 +142,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
@@ -167,7 +167,7 @@ export default function Home() {
                   Mini Cooper 2020
                 </th>
                 <td className="text-sm font-normal text-gray-500 p-4">11/07</td>
-                <td className="p-4">
+                <td className="pl-4">
                   <Buttom />
                 </td>
                 <td className="p-4">
